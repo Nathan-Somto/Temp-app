@@ -1,5 +1,9 @@
 import { useState } from "react";
-function Convert ({setResult, setUnit})
+type ConvertProp ={
+  setResult: React.Dispatch<React.SetStateAction<number>>;
+  setUnit: React.Dispatch<React.SetStateAction<string>>;
+};
+function Convert ({setResult, setUnit}:ConvertProp)
 { const To :string[] = ['Fahrenheit','Celsius','Kelvin'];
   const [fromIndex, setFromIndex] = useState<number>(0);
   const [ToConversion, setToConversion] = useState<string>(To[(fromIndex%2)+1]);
