@@ -1,0 +1,90 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.App{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  background-color:rgba(235,235,235,0.35);
+}
+span{
+
+  display:block;
+  color:rgba(0,0,0,0.5);
+}
+main{
+  width:100%;
+}
+.result{
+   position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  transition :all 0.3s ease-in;
+}
+.result, span{
+margin:0;
+  padding:0;
+}
+.card{
+  position:relative;
+  margin:0 auto;
+  min-width:300px;
+  width:70%;
+  background-color:rgb(255,255,255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  padding:0.55rem 1.5rem;
+  border-radius:0.75rem;
+  height:220px;
+  text-align:center;
+}
+form{
+  height:155px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+}
+.select--container label:nth-child(1){
+  margin-right:0.45rem;
+}
+.select--container{
+  margin-bottom:0.95rem;
+  margin-top:0.45rem;
+}
+.input--box{
+  display:block;
+  margin-top:0.6rem;
+  margin-bottom:0.75rem;
+  padding:0.6rem;
+  border-radius:0.45rem;
+  outline:none;
+    border: 1px solid rgb(166, 166, 168);
+}
+.select--box{
+  padding:0.45rem;
+  margin-left:0.2rem;
+    border: 1px solid rgb(166, 166, 168);
+}
+input[type ='submit']{
+  padding:0.5rem 0.85rem;
+     border:1px solid  rgb(30, 140, 209);
+  outline:none;
+  background-color:#fff;
+  color:rgb(30,140,209);
+  border-radius:0.35rem;
+  width:80px;
+  cursor:pointer;
+  
+}
+input[type ='submit']:hover{
+  background-color:rgb(30,140,209);
+  color:#fff;
+  transition:all 0.3s;
+}
