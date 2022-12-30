@@ -45,7 +45,7 @@ function handleFromChange(e:any):void{
                          setUnit('°C');
                          break;
                        case 'Kelvin':
-                         setResult((0.556*parseInt(input)+32)+273.15);
+                         setResult((parseInt(input)-32)*0.556+273.15);
                          setUnit('K');
                          break;
                      }
