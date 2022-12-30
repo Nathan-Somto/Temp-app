@@ -17,7 +17,7 @@ function handleFromChange(e:any):void{
   
   function calculate()
   {
-  console.log(ToConversion);
+  
     if(From[fromIndex] === 'Celsius')
     {
       switch(ToConversion){
