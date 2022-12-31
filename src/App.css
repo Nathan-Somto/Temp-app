@@ -52,11 +52,14 @@ form{
   justify-content:space-between;
 }
 .select--container label:nth-child(1){
-  margin-right:0.45rem;
+  margin-right:0.55rem;
 }
 .select--container{
-  margin-bottom:0.95rem;
+  margin-bottom:0.75rem;
   margin-top:0.45rem;
+}
+.input--box, .select--box{
+background-color:#fff;
 }
 .input--box{
   display:block;
