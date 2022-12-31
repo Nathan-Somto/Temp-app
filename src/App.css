@@ -39,7 +39,7 @@ margin:0;
   width:70%;
   background-color:rgb(255,255,255);
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
-  padding:0.55rem 1.5rem;
+  padding:0.6rem 1.5rem 0.6rem 1.5rem;
   border-radius:0.75rem;
   height:220px;
   text-align:center;
@@ -52,7 +52,7 @@ form{
   justify-content:space-between;
 }
 .select--container label:nth-child(1){
-  margin-right:0.55rem;
+  margin-right:0.75rem;
 }
 .select--container{
   margin-bottom:0.75rem;
